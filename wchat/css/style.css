@@ -1,0 +1,205 @@
+/* 重置默认样式 */
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+button,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f3f3f3;
+    color: #555;
+    font-size: 16px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+td,
+th,
+caption {
+    font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: normal;
+    font-size: 100%;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+th,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+a {
+    color: #555;
+    text-decoration: none;
+}
+
+a {
+    outline: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: none;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+input,
+textarea,
+select,
+button {
+    font: 16px Verdana, Helvetica, Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+html {
+    overflow-y: scroll;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.colortheme {
+    color: #555;
+}
+
+.listbgcolor {
+    color: #999;
+    background-color: #f3f3f3;
+}
+
+.marginTop0 {
+    margin-top: 0px !important;
+}
+
+.homePageheader,
+.spacePageheader {
+    padding: 30px;
+    color: #fff;
+    background: url(../images/个人中心bg_02.png) no-repeat center;
+}
+
+.headPortrait {
+    height: 80px;
+    background: url(../images/头像icon.png) no-repeat center;
+}
+
+.marginRight15 {
+    margin-right: 15px!important;
+}
+
+.height18 {
+    height: 18px!important;
+}
+
+.myDothinglist {
+    padding: 10px 0px 10px 10px;
+    position: relative;
+    background: #fff;
+}
+
+.myDothinglistState {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.myDothinglistStateText {
+    position: absolute;
+    display: inline-block;
+    top: 5px;
+    right: 5px;
+    color: #fff;
+}
+
+.myDothinglistDate {
+    color: #999;
+}
+
+.articleDetailsBox {
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.articleDetailsBoxAuthorDate {
+    margin-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e7e7e7;
+    text-align: center;
+    color: #bbb
+}
+
+.articleDetailsBoxTitle {
+    margin: 16px;
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+
+.weui-navbar__item.weui-bar__item--on {
+    color: #46A3FF;
+    border-bottom:2px solid #46A3FF;
+}
